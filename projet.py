@@ -21,7 +21,6 @@ plt.xlabel('Year')
 plt.ylabel('Employment Rate')
 plt.legend(title='Degree')
 plt.show()
-
 sns.boxplot(x='Degree', y='Employment Rate', data=df, palette='pastel')  # Fixed typo: 'Pastell' to 'pastel'
 plt.title('Boxplot of Employment Rate by Degree')
 plt.xlabel('Degree')
