@@ -28,7 +28,6 @@ plt.xlabel('Degree')
 plt.ylabel('Employment Rate')
 plt.xticks(rotation=45)
 plt.show()
-
 # 5. Line Plot of Employment Rate over Time
 sns.lineplot(x='Year', y='Employment Rate', data=df, marker='o', color="orange")  # Fixed: Y → y
 plt.title('Employment Rate Over Time')
