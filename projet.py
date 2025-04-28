@@ -5,6 +5,12 @@ import matplotlib.pyplot as plt
 data_path = r"C:\Users\ASUS\OneDrive\Desktop\Dataset Degree.xlsx"
 df = pd.read_excel(data_path) 
 sns.histplot(df['Employment Rate'], kde=True, color="skyblue")
+
+
+
+
+
+
 plt.title('Histogram of Employment Rate')
 plt.xlabel('Employment Rate')
 plt.ylabel('Frequency')
