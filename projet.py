@@ -1,7 +1,6 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
 data_path = r"C:\Users\ASUS\OneDrive\Desktop\Dataset Degree.xlsx"
 df = pd.read_excel(data_path) 
 sns.histplot(df['Employment Rate'], kde=True, color="skyblue")
@@ -27,8 +26,6 @@ plt.xlabel('Degree')
 plt.ylabel('Employment Rate')
 plt.xticks(rotation=45)
 plt.show()
-
-
 # 5. Line Plot of Employment Rate over Time
 sns.lineplot(x='Year', y='Employment Rate', data=df, marker='o', color="orange")  # Fixed: Y → y
 plt.title('Employment Rate Over Time')
