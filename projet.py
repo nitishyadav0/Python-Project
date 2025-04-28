@@ -16,7 +16,6 @@ plt.xlabel('Degree')
 plt.ylabel('Employment Rate')
 plt.xticks(rotation=45)  
 plt.show()
-
 sns.scatterplot(x='Year', y='Employment Rate', data=df, hue='Degree', palette='coolwarm')
 plt.title('Employment Rate vs Year')
 plt.xlabel('Year')
