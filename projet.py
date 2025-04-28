@@ -1,7 +1,6 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
 data_path = r"C:\Users\ASUS\OneDrive\Desktop\Dataset Degree.xlsx"
 df = pd.read_excel(data_path) 
 sns.histplot(df['Employment Rate'], kde=True, color="skyblue")
