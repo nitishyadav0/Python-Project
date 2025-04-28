@@ -9,6 +9,11 @@ plt.title('Histogram of Employment Rate')
 plt.xlabel('Employment Rate')
 plt.ylabel('Frequency')
 plt.show()
+
+
+
+
+
 sns.barplot(x='Degree', y='Employment Rate', data=df, palette='Set2')
 plt.title('Employment Rate by Degree')
 plt.xlabel('Degree')
